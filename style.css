@@ -84,3 +84,31 @@ header .img-placeholder {
   justify-content: center;
   align-items: center;
 }
+
+section.info {
+  padding: 55px 310px 125px;
+}
+
+section.info h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  color: #142937;
+  margin-bottom: 60px;
+}
+
+section.info ul {
+  display: flex;
+  gap: 50px;
+}
+
+section.info li {
+  width: 165px;
+}
+
+section.info div {
+  border: #3882f6 4px solid;
+  border-radius: 16px;
+  height: 160px;
+  margin-bottom: 16px;
+}
