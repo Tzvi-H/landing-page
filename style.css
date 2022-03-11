@@ -136,3 +136,46 @@ section.quote figcaption {
   font-size: 24px;
   text-align: right;
 }
+
+section.action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 200px;
+  color: #F9FAF8;
+}
+
+section.action .container {
+  background-color: #3882f6;
+  width: 1020px;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+}
+
+section.action p:first-child {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+section.action button {
+  background-color: #3882f6;
+  color: #F9FAF8;
+  padding: 10px 36px;
+  border-radius: 8px;
+  border-color: #F9FAF8;
+  font-size: 16px;
+  border: 2px solid #F9FAF8;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  height: 100px;
+  color: #F9FAF8;
+}
